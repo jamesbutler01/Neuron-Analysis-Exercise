@@ -5,14 +5,15 @@ A subset of processed data from one of our recent experiments featured in Nature
 #### Data consists of the following files: 
 - x.npy
 	- [neurons x trials] matrix of the value of the attended cue
-	- Cue was drawn from a set of 5 different values, equally spaced
+	- Cue is one of 5 different values (0.1, 0.3, 0.5, 0.7, 0.9), sampled with a uniform distribution
 
 - y.npy 
- 	- [neurons x trials x time] matrix of neural activity during the trial
+ 	- [neurons x trials x time] matrix of neural activity during each trial
 	- Time is sampled every 10 ms
 	- Cue onset is at 500 ms (i.e. point 50)
+
 - xy.mat
-	- As above but as a Matlab compatible file
+	- As above but in a Matlab compatible file
 
 #### Notes
  - Neurons are from different sessions, and so have different X properties. 

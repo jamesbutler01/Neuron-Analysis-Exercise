@@ -1,6 +1,11 @@
-# Example neuronal data from an economic decision-making task
+# Example prefrontal cortex neuronal data from an economic decision-making task
 
 A subset of processed data from one of our recent experiments featured in Nature Neuroscience ([link](https://pubmed.ncbi.nlm.nih.gov/30258238/)). The full dataset (unprocessed) is publicly available [here](https://crcns.org/data-sets/pfc/pfc-7/about-pfc-7). 
+
+The neurons (all recorded from ACC) showcase a range of different response profiles, such as this beautiful positive value coder:
+![Example neuron](https://github.com/jamesbutler01/Example-Neuronal-Analysis/blob/main/ExampleNeuron.png?raw=true)
+
+
 
 #### Data consists of the following files: 
 - x.npy

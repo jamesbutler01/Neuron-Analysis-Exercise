@@ -11,6 +11,8 @@ A subset of processed data from one of our recent experiments featured in Nature
  	- [neurons x trials x time] matrix of neural activity during the trial
 	- Time is sampled every 10 ms
 	- Cue onset is at 500 ms (i.e. point 50)
+- xy.mat
+	- As above but as a Matlab compatible file
 
 #### Notes
  - Neurons are from different sessions, and so have different X properties. 

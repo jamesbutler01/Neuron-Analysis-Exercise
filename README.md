@@ -21,8 +21,8 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 	- As above but in a Matlab compatible file
 
 #### Notes
- - Neurons are from different sessions, and so have different X properties. 
+- Neurons are from different sessions, and so have different X properties
 
-- Only one neuron actually has enough trials to fill the matrix. 
+- Due to this uneven number of trials between neurons, the end of each array is padded with NaNs to allow the use of a matrix
 
-- The other neuron's matrices are padded with NaNs at the later rows which will need to be removed/handled appropriately.
+- These NaNs should be removed/handled appropriately before any analysis takes place

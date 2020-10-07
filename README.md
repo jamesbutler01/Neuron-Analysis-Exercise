@@ -26,3 +26,8 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 - Due to this uneven number of trials between neurons, the end of each array is padded with NaNs to allow the use of a matrix
 
 - These NaNs should be removed/handled appropriately before any analysis takes place
+
+#### Questions of interest
+- See how each neuron responds to value by reproducing the plot above
+- Quantify each neurons value response by doing a linear regression at each time point
+- Overall, do the population respond positively or negatively to the value of the cue?

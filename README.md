@@ -27,7 +27,14 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 
 - These NaNs should be removed/handled appropriately before any analysis takes place
 
-#### Questions of interest
-- See how each neuron responds to value by reproducing the plot above
+#### Exercise
+- Load the data
+- For each neuron (i.e. with a for loop)
+	- Remove/account for the NaNs in its data
+	- Plot the average firing rate for each of the 5 cues
+	- On the same plot, plot the standard error for each cue
+
+#### Further questions of interest
+If you want, further things you can look for in the data:
 - Quantify each neurons value response by doing a linear regression at each time point
 - Overall, do the population respond positively or negatively to the value of the cue?

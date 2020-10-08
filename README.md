@@ -15,7 +15,7 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 - y.npy 
  	- [neurons x trials x time] matrix of neural activity during each trial
 	- Time is sampled every 10 ms
-	- Cue onset is at 500 ms (i.e. point 50)
+	- Cue onset is at 400 ms (i.e. point 40)
 
 - xy.mat
 	- As above but in a Matlab compatible file
@@ -26,11 +26,13 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 - These NaNs should be removed/handled appropriately before any analysis takes place
 
 #### Exercise
+This is an introduction to the basics of neural data analysis/visualisation. Exploring how individual cells in the primate brain alter their firing rates in response to cues of different value. 
 - Load the data
 - For each neuron (i.e. with a for loop)
-	- Remove/account for the NaNs in its data
+	- Remove/account for the NaNs in the data
 	- Plot the average firing rate for each of the 5 cues
 	- On the same plot, plot the standard error for each cue
+- What are the notable differences in how each neuron responds to value?
 
 #### Further questions of interest
 If you want, further things you can look for in the data:

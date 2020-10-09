@@ -13,26 +13,22 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 	- Cue is one of 5 different values (0.1, 0.3, 0.5, 0.7, 0.9), sampled with a uniform distribution
 
 - y.npy 
- 	- [neurons x trials x time] matrix of neural activity during each trial
-	- Time is sampled every 10 ms
+ 	- [neurons x trials x time] matrix of neural activity during each trial.
+		- The first dimension of the matrix will be each neuron (i.e. length 10 as there are 10 neurons)
+		- The second dimension will be trials (length 473 as this was the session with the longest number of trials)
+		- The third dimension will be each time point (length 250 as it is a 2500 ms window sampled at 10 ms intervals)
 	- Cue onset is at 400 ms (i.e. point 40)
+	- The firing rate has been smoothed, which is why it's not a binary variable (as raw spike data would be)
 
 - xy.mat
 	- As above but in a Matlab compatible file
-
-#### Notes
-- The firing rate has been smoothed, which is why it's not a binary variable (as raw spike data would be)
-
-- Neurons are from different sessions, and so have different X properties
-- Due to this uneven number of trials between neurons, the end of each array is padded with NaNs to allow the use of a matrix
-- These NaNs should be removed/handled appropriately before any analysis takes place
 
 #### Exercise
 This is an introduction to the basics of neural data analysis/visualisation. Exploring how individual cells in the primate brain alter their firing rates in response to cues of different value. 
 - Load the data
 - For each neuron (i.e. with a for loop)
 	- Remove/account for the NaNs in the data
-	- Plot the average firing rate for each of the 5 cues
+	- Plot the average firing rate across time for each of the 5 cues (like above)
 	- On the same plot, plot the standard error for each cue (don't worry about the fancy shading, or making pretty plots!)
 - Do all neurons have higher firing rates for higher value cues (like in the plot above), or do some do the opposite?
 

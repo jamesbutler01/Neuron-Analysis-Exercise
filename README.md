@@ -21,6 +21,8 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 	- As above but in a Matlab compatible file
 
 #### Notes
+- The firing rate has been smoothed, which is why it's not a binary variable (as raw spike data would be)
+
 - Neurons are from different sessions, and so have different X properties
 - Due to this uneven number of trials between neurons, the end of each array is padded with NaNs to allow the use of a matrix
 - These NaNs should be removed/handled appropriately before any analysis takes place

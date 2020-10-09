@@ -32,7 +32,7 @@ This is an introduction to the basics of neural data analysis/visualisation. Exp
 	- Remove/account for the NaNs in the data
 	- Plot the average firing rate for each of the 5 cues
 	- On the same plot, plot the standard error for each cue
-- What are the notable differences in how each neuron responds to value?
+- Do all neurons have higher firing rates for higher value cues (like in the plot above), or do some do the opposite?
 
 #### Further questions of interest
 If you want, further things you can look for in the data:

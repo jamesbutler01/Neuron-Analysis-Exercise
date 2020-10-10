@@ -15,7 +15,7 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 - y.npy 
  	- [neurons x trials x time] matrix of neural activity during each trial.
 		- The first dimension of the matrix will be each neuron (i.e. length 10 as there are 10 neurons)
-		- The second dimension will be trials (length 473 as this was the session with the longest number of trials)
+		- The second dimension will be trials (length 342, the number of trials per session)
 		- The third dimension will be each time point (length 250 as it is a 2500 ms window sampled at 10 ms intervals)
 	- Cue onset is at 400 ms (i.e. point 40)
 	- The firing rate has been smoothed, which is why it's not a binary variable (as raw spike data would be)

@@ -27,7 +27,6 @@ The neurons (all recorded from ACC) showcase a range of different response profi
 This is an introduction to the basics of neural data analysis/visualisation. Exploring how individual cells in the primate brain alter their firing rates in response to cues of different value. 
 - Load the data
 - For each neuron (i.e. with a for loop)
-	- Remove/account for the NaNs in the data
 	- Plot the average firing rate across time for each of the 5 cues (like above)
 	- On the same plot, plot the standard error for each cue (don't worry about the fancy shading, or making pretty plots!)
 - Do all neurons have higher firing rates for higher value cues (like in the plot above), or do some do the opposite?

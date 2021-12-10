@@ -1,4 +1,4 @@
-# Example prefrontal cortex neuronal data from an economic decision-making task
+# Exercise on how to analyse neurons from an economic decision-making task
 
 A subset of processed data from one of our recent experiments featured in Nature Neuroscience ([link](https://pubmed.ncbi.nlm.nih.gov/30258238/)). The full dataset (unprocessed) is publicly available [here](https://crcns.org/data-sets/pfc/pfc-7/about-pfc-7). 
 
